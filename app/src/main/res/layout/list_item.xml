@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/phoneLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginTop="20dp"
+    android:orientation="horizontal"
+    android:padding="6dp">
+
+    <LinearLayout
+        android:layout_width="257dp"
+        android:layout_height="78dp"
+        android:orientation="vertical"
+        android:textIsSelectable="true">
+
+        <TextView
+            android:id="@+id/phone"
+            android:layout_width="280dp"
+            android:layout_height="41dp"
+            android:textColor="@color/colorPrimary"
+            android:textIsSelectable="true"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorGray"
+            android:textIsSelectable="true" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/editButton"
+        android:layout_width="69dp"
+        android:layout_height="78dp"
+        android:layout_weight="1"
+        android:text="@string/circle_button"
+        android:background="@color/colorBody"/>
+
+</LinearLayout>

@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Fundamentals</string>
+    <string name="button_value">ADD</string>
+    <string name="recyclerView">Recycler View</string>
+    <string name="toast">Add New Phone Number</string>
+
+    <string-array name="spinner_list">
+        <item>Home</item>
+        <item>Company</item>
+        <item>Personal</item>
+    </string-array>
+
+    <string name="next_button"> → </string>
+    <string name="last_button"> ← </string>
+    <string name="circle_button">+</string>
+    <string name="setting_button">≡</string>
+    <string name="amount_phone">Amount</string>
+    <string name="title_activity_navigation">NavigationActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string name="dialog_message">Edit</string>
+    <string name="dialog_correct">update</string>
+    <string name="dialog_cancel">cancel</string>
+    <string name="dialog_delete">delete</string>
+    <string name="dialog_id">ID</string>
+
+    <string name="title_activity_settings">Settings</string>
+
+
+
+
+</resources>
