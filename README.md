@@ -1,6 +1,6 @@
-# AAD
+# Android Beginner Practice
 
-Android Beginner
+Base 
 
 1. RecycleView
 2. Local DB
